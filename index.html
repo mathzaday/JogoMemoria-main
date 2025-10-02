@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memoria</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="tela-inicial">
+          <h1>Jogo da Memória</h1>
+            <div class="jogo-memoria">
+            <div class="img"><img src="img/abobora1.png" alt="" /></div>
+            <div class="img"><img src="img/abobora2.png" alt="" /></div>
+            <div class="img"><img src="img/abobora3.png" alt="" /></div>
+            <div class="img"><img src="img/abobora4.png" alt="" /></div>
+            <div class="buuh">
+              <button id="meuBotao">Buuh!</button>
+            </div>
+            <div class="img"><img src="img/abobora6.png" alt="" /></div>
+            <div class="img"><img src="img/abobora8.png" alt="a" /></div>
+            <div class="img"><img src="img/abobora7.png" alt="" /></div>
+            <div class="img"><img src="img/abobora9.png" alt="" /></div>
+            <div class="img"><img src="img/abobora10.png" alt="" /></div>
+            <div class="img"><img src="img/abobora10.png" alt="" /></div>
+            <div class="img"><img src="img/abobora11.png" alt="" /></div>
+            <div class="img"><img src="img/abobora13.png" alt="" /></div>
+            <div class="img"><img src="img/abobora14.png" alt="" /></div>
+            <div class="img"><img src="img/abobora15.png" alt="" /></div>
+            <div class="img"><img src="img/abobora16.png" alt="" /></div>
+            <div class="img"><img src="img/abobora17.png" alt="" /></div>
+            <div class="img"><img src="img/abobora18.png" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <div id="modalVitoria" class="modal-overlay hidden">
+        <div class="modal-content">
+          <button id="closeModalBtn" class="close-btn">&times;</button>
+          <h2>Parabéns!</h2>
+          <p>
+            Parabéns! Você completou o jogo da memória.
+          </p>
+          <button class="playAgain" id="playAgain">Jogar novamente</button>
+        </div>
+      </div>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
